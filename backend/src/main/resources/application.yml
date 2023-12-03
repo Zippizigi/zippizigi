@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  config:
+    activate:
+      on-profile:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/zipizigi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create
+---
