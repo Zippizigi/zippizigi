@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Member {
 
-    @Id
+    @Id //@Entity 사용 시 반드시 필요
     @GeneratedValue
     private Long memberId;
 
